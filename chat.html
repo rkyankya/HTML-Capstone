@@ -9,16 +9,16 @@
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f1eb37ec03.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style2.css">
-    <title>Chat Detail Page</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Chat Page</title>
 </head>
 <body>
     <header>
         <!--Navigation Bar Structure-->
         <nav id="navigation-bar">
             <span class="nav-icons" id="location-icon">   
-                    <i class="fas fa-map-marker-alt"></i>&nbsp;
-                <span id="location">Location:</span>&nbsp;&nbsp;&nbsp;
+                    <i class="fas fa-map-marker-alt"></i>
+                    &nbsp;<span id="location">Location: </span>&nbsp;&nbsp;&nbsp;
                 <span id="location-city">London
                     <i class="fas fa-angle-double-down"></i>
                 </span>
@@ -44,6 +44,11 @@
                     <i class="fas fa-user-circle user-icons"></i>
                 </li>
             </ul>
+            <div class="small-header">
+                <i class="fas fa-bars"></i>
+                <h2>Messages</h2>
+                <i class="far fa-edit"></i>
+            </div>
         </nav>
     </header>
     <main>
@@ -145,7 +150,7 @@
                 </ul>
             </div>
             <!--Chat page with list of chats-->
-            <div class="chat-container">
+            <div class="chat-container d-flex">
                 <div id="list-chat">
                     <div class="header-chat">
                         <div class="search-by-users">    
@@ -216,7 +221,7 @@
                         </div>
                         <div class="bubble-chat">
                             <a class="anchor-bubble-chat" href="chats.html">
-                                <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
+                              <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
                                 <div class="chat-elipsis">
                                     <div class="status-container">    
                                         <h5 class="m-0">Sheila Gashumba</h5>
@@ -230,7 +235,7 @@
                         </div>
                         <div class="bubble-chat">
                             <a class="anchor-bubble-chat" href="chats.html">
-                                <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
+                              <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
                                 <div class="chat-elipsis">
                                     <div class="status-container">    
                                         <h5 class="m-0">Sheila Gashumba</h5>
@@ -245,7 +250,7 @@
                         </div>
                         <div class="bubble-chat">
                             <a class="anchor-bubble-chat" href="chats.html">
-                                <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
+                              <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
                                 <div class="chat-elipsis">
                                     <div class="status-container">    
                                         <h5 class="m-0">Sheila Gashumba</h5>
@@ -259,7 +264,7 @@
                         </div>
                         <div class="bubble-chat">
                             <a class="anchor-bubble-chat" href="chats.html">
-                                <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
+                              <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
                                 <div class="chat-elipsis">
                                     <div class="status-container">    
                                         <h5 class="m-0">Sheila Gashumba</h5>
@@ -273,7 +278,7 @@
                         </div>
                         <div class="bubble-chat">
                             <a class="anchor-bubble-chat" href="chats.html">
-                                <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
+                              <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
                                 <div class="chat-elipsis">
                                     <div class="status-container">    
                                         <h5 class="m-0">Sheila Gashumba</h5>
@@ -288,7 +293,7 @@
                         </div>
                         <div class="bubble-chat">
                             <a class="anchor-bubble-chat" href="chats.html">
-                                <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
+                              <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
                                 <div class="chat-elipsis">
                                     <div class="status-container">    
                                         <h5 class="m-0">Sheila Gashumba</h5>
@@ -302,7 +307,7 @@
                         </div>
                         <div class="bubble-chat">
                             <a class="anchor-bubble-chat" href="chats.html">
-                                <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
+                              <img class="chat-img" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
                                 <div class="chat-elipsis">
                                     <div class="status-container">    
                                         <h5 class="m-0">Sheila Gashumba</h5>
@@ -336,104 +341,26 @@
                             <i class="fas fa-braille small-footer-icon-bigger"></i>
                         </div>
                         <div class="small-chat-menu">
-                            <i class="far fa-comments small-footer-icon"></i>
+                            <i class="far fa-comments small-footer-icon message"></i>
                         </div>
                         <div class="small-chat-menu">
                             <i class="fas fa-user small-footer-icon"></i>
                         </div>
                     </div>
                 </div>
-                <!--Chat Detil Page-->
+                <!--Chat Detil Page Waiting for the User to Choose a Contact-->
                 <div id="chat-detail">
-                    <div class="header-chat chat-detail-pag">
-                        <i class="fas fa-phone-alt"></i>
-                        <div class="contact-chat-title">
-                            <a class="link-to-main-page" href="index.html">
-                                <h2 class="m-0">Sheila Gashumba</h2>
-                            </a>
-                            <span class="online-text">online</span>
-                            <span class="green-circle"></span>
-
-                        </div>
-                        <i class="fas fa-ellipsis-h"></i>
-                    </div>
-                    <div id="scroll-chat-detail">
-                        <div class="chat-conversation">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message message">
-                                <span class="message-text">Lorem ipsum dolor sit amet, id apeirian molestiae disputationi nam. </span>
-                            </div>
-                        </div>
-                        <div class="chat-conversation chat-conversation-reverse">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message user-message message">
-                                <span class="message-text">Cu sensibus dignissim duo, usu ne iisque deserunt eloquentiam.</span>
-                            </div>
-                        </div>
-                        <div class="chat-conversation">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message message">
-                                <span class="message-text">Quod elit fierent id mei, populo fabulas definitionem ei pri. Ad eos tota summo, alii adhuc dissentiunt ex mel. Eum dicam ornatus fastidii cu.</span>
-                            </div>
-                        </div>
-                        <div class="chat-conversation chat-conversation-reverse">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message user-message message">
-                                <span class="message-text">Ipsum utroque invidunt est an, partem omnesque sed in. Debet aperiam accusata et vel, est cu omnes placerat accommodare. Eum in dolorum civibus, harum possim sed ne. Eu feugiat delectus nam, cum in omnis apeirian. Ut sonet possit numquam eos, has vero corrumpit interpretaris id. </span>
-                            </div>
-                        </div>
-                        <div class="chat-conversation">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message message">
-                                <span class="message-text">Rebum quando id mea, eos ea sint viris utamur, per cu meis mandamus pertinacia. Sed ea quis mollis. </span>
-                            </div>
-                        </div>
-                        <div class="chat-conversation chat-conversation-reverse">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message user-message message">
-                                <span class="message-text">Sea iusto sensibus reprimique ei.</span>
-                            </div>
-                        </div>
-                        <div class="chat-conversation">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message message">
-                                <span class="message-text">Ludus consequat consetetur id eam, cum no posse ignota contentiones. Cu pri augue inimicus, ad nam doctus menandri. Ad movet efficiendi voluptatibus mea. </span>
-                            </div>
-                        </div>
-                        <div class="chat-conversation chat-conversation-reverse">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message user-message message">
-                                <span class="message-text">Cu sensibus dignissim duo, usu ne iisque deserunt eloquentiam. Nihil eripuit id sea, cu soleat vulputate has. Quod elit fierent id mei, populo fabulas definitionem ei pri. Ad eos tota summo, alii adhuc dissentiunt ex mel. Eum dicam ornatus fastidii cu.</span>
-                            </div>
-                        </div>
-                        <div class="chat-conversation">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message message">
-                                <span class="message-text"> Debet aperiam accusata et vel, est cu omnes placerat accommodare. Eum in dolorum civibus, harum possim sed ne. Eu feugiat delectus nam, cum in omnis apeirian. Ut sonet possit numquam eos, has vero corrumpit interpretaris id. </span>
-                            </div>
-                        </div>
-                        <div class="chat-conversation chat-conversation-reverse">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message user-message message">
-                                <span class="message-text"> Pri autem repudiare at, an duo dicunt salutandi, ex audire eruditi his. Ne dolor vitae repudiare mel. </span>
-                            </div>
-                        </div>
-                        <div class="chat-conversation">
-                            <img class="img-fluid img-conversation" src="https://upload.wikimedia.org/wikipedia/en/8/8b/Avatar_2_logo.jpg?auto=format&w=750" alt="">
-                            <div class="container-message message">
-                                <span class="message-text">Cibo labore id pri, ad per vero aperiri alienum. Ut laudem legimus consulatu pro, mel ad illud liber, modo rebum honestatis sit no.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="chat-writing-bar">
-                        <i class="fas fa-paperclip"></i>
-                        <input id="message-bar" name="message-bar" type="text" placeholder="Your message...">
-                        <i class="far fa-smile"></i>
-                        <i class="fas fa-upload"></i>
+                    <div>
+                            <i class="fas fa-sms"></i>
                     </div>
                 </div>
+
             </div>
         </div>
     </main>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
 </body>
 </html>
