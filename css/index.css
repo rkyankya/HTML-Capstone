@@ -23,7 +23,7 @@ body {
   fill: black;
 }
 
-#navigation-bar {
+#navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,13 +70,13 @@ h1#title {
   letter-spacing: -0.1rem;
 }
 
-.first-style {
+.first {
   font-weight: 900;
   color: #4e50b8;
   display: inline-block;
 }
 
-.second-style {
+.second {
   color: #f0916e;
   display: inline-block;
 }
@@ -129,7 +129,7 @@ main {
   margin: 0;
 }
 
-.user-information {
+.user-bio {
   margin-top: 2.5%;
 }
 
@@ -138,7 +138,7 @@ main {
   border-radius: 5px;
 }
 
-.profile-info {
+.profile-bio {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -146,7 +146,7 @@ main {
   height: 15%;
 }
 
-.foto-section {
+.photo-section {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -159,7 +159,7 @@ main {
   align-items: flex-start;
 }
 
-#galerie {
+#gallery {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -173,7 +173,7 @@ main {
   margin-right: 5%;
 }
 
-.user-info-wrapper {
+.user-bio-wrapper {
   display: flex;
   flex-direction: row;
   padding: 4%;
@@ -258,7 +258,7 @@ a.anchor-get-premium:hover {
   cursor: pointer;
 }
 
-.acquittances-info {
+.acquitance-info {
   display: flex;
   flex-direction: column;
   margin: 2.5% 0;
@@ -274,7 +274,7 @@ a.anchor-menu-links:hover {
   cursor: pointer;
 }
 
-ul#menu-account {
+ul#account-menu {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -284,8 +284,8 @@ ul#menu-account {
   padding-left: 2.5%;
 }
 
-ul#menu-account > li,
-ul#menu-account > li > a.anchor-menu-links {
+ul#account-menu > li,
+ul#account-menu > li > a.anchor-menu-links {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -350,7 +350,7 @@ ul#menu-account > li > a.anchor-menu-links {
   right: -15%;
 }
 
-div#galerie > .photos {
+div#gallery > .photos {
   border-radius: 5px;
   width: 11%;
 }
@@ -730,11 +730,11 @@ a.anchor-communicate:hover {
     height: 100%;
   }
 
-  #navigation-bar {
+  #navbar {
     display: none !important;
   }
 
-  .user-information {
+  .user-bio {
     display: none;
   }
 
@@ -744,7 +744,7 @@ a.anchor-communicate:hover {
     display: none !important;
   }
 
-  .foto-section {
+  .photo-section {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -775,7 +775,7 @@ a.anchor-communicate:hover {
     right: 4%;
   }
 
-  .acquittances-info {
+  .acquitance-info {
     height: 50vh;
     width: 100%;
   }
@@ -854,7 +854,7 @@ a.anchor-communicate:hover {
     height: 10%;
   }
 
-  .foto-section {
+  .photo-section {
     width: 50%;
     height: calc(100% - 60px);
   }
@@ -881,8 +881,8 @@ a.anchor-communicate:hover {
     margin-bottom: 1%;
   }
 
-  .acquittances-info,
-  .user-information {
+  .acquitance-info,
+  .user-bio {
     width: 23%;
     height: calc(100% - 60px);
     margin-right: 1%;

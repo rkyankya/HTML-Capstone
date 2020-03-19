@@ -23,7 +23,7 @@ body {
   fill: black;
 }
 
-#navigation-bar {
+#navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,7 +126,7 @@ main {
   width: 100%;
 }
 
-.user-information {
+.user-bio {
   margin-top: 2.5%;
 }
 
@@ -135,7 +135,7 @@ main {
   border-radius: 5px;
 }
 
-.profile-info {
+.profile-bio {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -518,7 +518,7 @@ div.chat-elipsis {
 
 @media screen and (max-width: 1024px) {
   .nav-icons,
-  .user-information {
+  .user-bio {
     display: none !important;
   }
 
@@ -620,7 +620,7 @@ div.chat-elipsis {
     display: none !important;
   }
 
-  .user-information {
+  .user-bio {
     width: 23%;
     height: calc(100% - 60px);
     margin-right: 1%;
