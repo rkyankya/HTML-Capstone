@@ -18,7 +18,7 @@
 
 ## Project video presentation
 
-[Swipex App video](#)
+[Swipex App video](https://www.loom.com/share/51a5f9d2aa0748ffb97634c1404fb84a)
 
 ## Swipex App background
 The project description in from microverse capstone projects on the HTML & CSS section [Link to Description:](https://www.notion.so/HTML-CSS-capstone-project-Social-network-5f1311dcf3734d71ac98198dff5254c2)
